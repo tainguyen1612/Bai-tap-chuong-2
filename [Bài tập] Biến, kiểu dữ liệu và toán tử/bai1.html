@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Điểm trung bình</title>
+</head>
+<body>
+	<script>
+		var VatLy 	= parseFloat(prompt("Nhập điểm vật lý của bạn"));
+		var Hoa		= parseFloat(prompt("Nhập điểm hóa học của bạn"));
+		var Sinh 	= parseFloat(prompt("Nhập điểm sinh học của bạn"));
+		var SUM		= VatLy + Hoa + Sinh ;
+		var TBC		= ( VatLy + Hoa + Sinh ) / 3 ;
+
+		document.write("Tổng điểm 3 môn của bạn là : " + SUM + "<br/>");
+		document.write("Trung bình công 3 môn của bạn là : " + TBC.toFixed(2));
+	</script>
+</body>
+</html>
